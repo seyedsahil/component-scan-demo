@@ -1,8 +1,9 @@
 package demo.test1;
 
 import demo.Component;
+import demo.Strategy;
 
-@Component
+@Component(strategy = Strategy.SINGLETON)
 public class Test1 {
 
     public void onStartup() {
